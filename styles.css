@@ -1,0 +1,138 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #181232;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #181232;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #181232;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #181232;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.accordion-button {
+    background-color: #ee7d33;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.accordion-button:hover {
+    background-color: #d83c4e;
+}
+
+.panel {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    display: none;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #181232;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta-button {
+    background-color: #ee7d33;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #d83c4e;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+/* Icon Styling */
+i {
+    margin-right: 10px;
+    color: #f8c233;
+}
+
+/* Concept Cards */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.concept-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.concept-card:hover {
+    transform: scale(1.05);
+}
+.concept-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.concept-description {
+    font-size: 1em;
+    color: #555;
+}
+.icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
