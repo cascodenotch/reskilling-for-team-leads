@@ -84,7 +84,7 @@ ul li {
     padding: 10px 20px;
     border: none;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-radius: 5px;
     display: inline-block;
     margin-top: 20px;
@@ -135,4 +135,27 @@ i {
 .icon {
     font-size: 2em;
     margin-bottom: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    .concept-card {
+        width: 100%; /* Adjust to 1 card per row on smaller screens */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .concept-header {
+        font-size: 1.2em; /* Smaller header for small screens */
+    }
+
+    .concept-description {
+        font-size: 0.9em; /* Smaller text for small screens */
+    }
+
+    .icon {
+        font-size: 1.5em; /* Adjust icon size */
+    }
 }
